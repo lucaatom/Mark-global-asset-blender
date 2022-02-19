@@ -13,4 +13,5 @@ Avoid overwriting files with the same name by using an unique id that unique ide
 
 
 
-This script marks an object as a gl
+
+<img width="577" alt="yy" src="https://user-images.githubusercontent.com/79576473/154813220-06167572-e5b0-4fee-98a0-706f26cdfea5.png">
