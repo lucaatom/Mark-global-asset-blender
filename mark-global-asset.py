@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
     
     
-def make_global_asset(context):
+def mark_global_asset(context):
     prefs = bpy.context.preferences
     filepaths = prefs.filepaths
     asset_libraries = filepaths.asset_libraries
