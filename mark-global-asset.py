@@ -32,7 +32,7 @@ def register():
     bpy.types.VIEW3D_MT_object_context_menu.append(draw_menu)
 
 def unregister():
-    bpy.utils.unregister_class(ObjectMoveX)
+    bpy.utils.unregister_class(MarkGlobalAsset)
     bpy.types.VIEW3D_MT_object_context_menu.remove(draw_menu)
     
 
