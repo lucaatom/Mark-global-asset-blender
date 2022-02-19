@@ -14,7 +14,7 @@ class MarkGlobalAsset(bpy.types.Operator):
     bl_options = {'REGISTER'}  # Enable undo for the operator.
 
     def execute(self, context):        # execute() is called when running the 
-        mark_global_asset_test(context)
+        mark_global_asset(context)
 
         return {'FINISHED'}            # Lets Blender know the operator finished successfully.
     
