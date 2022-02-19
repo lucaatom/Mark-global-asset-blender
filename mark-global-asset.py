@@ -27,7 +27,7 @@ def draw_menu(self, context):
     layout.operator("object.mark_global_asset", text="Mark/clear Global Asset")
 
 def register():
-    bpy.utils.register_class(MakeGlobalAsset)
+    bpy.utils.register_class(MarkGlobalAsset)
     bpy.types.VIEW3D_MT_object.append(menu_func)
     bpy.types.VIEW3D_MT_object_context_menu.append(draw_menu)
 
