@@ -1,4 +1,4 @@
-# Mark-global-asset-blender
+# Mark global asset blender
 
 Blender is one of the best opensource piece of art out there. 
 With the 3.0 version there is a new feature called Asset Browser. It's a great idea but it lacks some basic functionality like saving global assets.
